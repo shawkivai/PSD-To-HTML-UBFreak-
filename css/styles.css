@@ -1,0 +1,257 @@
+body{
+background:white;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+
+@media screen and (min-width: 768px) {
+
+body{
+background: white;
+overflow: auto;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+.ques{
+float:right;
+font-size:40px;
+  word-wrap: break-word;
+hyphens: auto;
+}
+
+
+
+
+
+
+} 
+
+
+
+
+@media only screen and (min-width : 1224px) {
+body{
+background: white;
+overflow: auto;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+
+
+
+
+}
+
+
+
+.container{
+background: white;
+padding-top:30px;
+
+}
+.navbar{
+margin: 40;
+}
+.header{
+align: center;
+}
+.navbar {
+margin-bottom: 0;
+border-radius: 0;
+}
+.special-dishes{
+background-image: url('images/image-9.png');
+}
+
+ footer{
+color:white;
+background-image: url(../images/f1.png);
+width:110%;
+padding-top:20px;
+padding-left:50px;
+padding-right:20px;
+padding-bottom:10px;
+font-size:10px;
+position:absolute;
+
+}
+
+.footer-options{
+margin-left:25px;
+margin-right:25px;
+
+}
+#footer-image{
+align:center;
+width: 100%;
+}
+
+
+h4{
+
+font-family:"dead_kansasregular";
+ padding-left: 80px;
+}
+
+h1{
+
+font-family:"dead_kansasregular";
+
+ font-size: 60px;
+
+}
+.ques{
+float:right;
+font-size:60px;
+
+  word-wrap: break-word;
+hyphens: auto;
+}
+
+
+.form-control{
+border: 2px solid black;
+border-radius: 0px;
+
+} 
+
+.button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 10px;
+}
+
+#b1{
+float:right;
+}
+
+input[type="file"]{
+display:none;
+}
+
+.search{
+
+margin-top:10px;
+ padding-left: 150px;
+ padding-right:30px;
+}
+
+.contact{
+ float:right;
+ font-family:"dead_kansasregular";
+ word-wrap: break-word;
+hyphens: auto;
+ 
+}
+
+.f1{
+ padding-left: 80px;
+}
+.r1{
+
+
+background-image: "images/f1.png"
+
+}
+
+.opt{
+ text-align: center;
+
+}
+
+select {
+
+/* styling */
+text-align-last:center;
+color: black;
+margin-left: 40px;
+
+/* reset */
+
+margin: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+/* arrows */
+
+select.form-control.form-control-lg{
+background-image:
+linear-gradient(45deg, transparent 50%, white 50%),
+linear-gradient(135deg, white 50%, transparent 50%),
+linear-gradient(to right, black, black);
+background-position:
+calc(100% - 20px) calc(1em + 2px),
+calc(100% - 15px) calc(1em + 2px),
+100% 0;
+background-size:
+5px 5px,
+5px 5px,
+2.5em 2.5em;
+background-repeat: no-repeat;
+} 
+option{
+color:black;
+}
+
+
+ 
+
+#p1{
+ padding-left: 40px;
+ 
+} 
+
+.item{
+padding-left:50px;
+}
+.color{
+color: white;
+}
+
+@font-face {
+    font-family: 'dead_kansasregular';
+    src: url('../Fonts/dead_kansas/dead_kansas-webfont.woff2') format('woff2'),
+         url('../Fonts/dead_kansas/dead_kansas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar-inverse {
+background-color:white;
+
+
+}
+
+.navbar {
+float:right;
+border-style:none;
+
+
+
+}
+
+.navbar-toggle{
+background-color:black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #cc1877;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}

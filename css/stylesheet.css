@@ -1,0 +1,499 @@
+
+
+body{
+background:white;
+overflow-x: hidden;
+overflow-y: scroll;
+
+
+}
+
+@media only screen and (max-width: 500px) {
+body{
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+.navbar{
+
+}
+}
+
+
+
+.container{
+background: white;
+
+padding-top:30px;
+
+
+}
+
+.header{
+align: center;
+}
+
+.special-dishes{
+background-image: url('images/image-9.png');
+}
+.footer {
+
+} 
+h4{
+
+font-family:"dead_kansasregular";
+ padding-left: 80px;
+}
+
+h1{
+
+font-family:"dead_kansasregular";
+
+ font-size: 60px;
+
+}
+
+
+.ques{
+float:right;
+ padding-right: 40px;
+}
+
+
+.form-control{
+border: 2px solid black;
+border-radius: 0px;
+
+} 
+
+
+.box-control{
+     border: 1px ;
+    padding: 2px;
+    box-shadow: 2px 2px 2px 5px #65f1fa;
+
+
+}
+
+.button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 10px;
+}
+
+
+
+
+
+#b1{
+float:right;
+}
+
+input[type="file"]{
+display:none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+body{
+background: white;
+overflow: auto;
+overflow-x: hidden;
+overflow-y: scroll;
+
+}
+#product_box{
+padding-left:80px;
+}
+
+.col-sm-3{
+width:300px;
+}
+
+.navbar{
+} 
+.col-md-4{
+
+}
+#sale-image{
+	padding-top:10px;
+	padding-left:180px;
+	position: relative;
+}
+
+#product-image{
+	margin-top:-70px;
+}
+
+}
+
+@media screen and (min-width: 400px) {
+
+body{
+background: white;
+overflow: auto;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+#product-image{
+
+}
+#sale-image{
+
+}
+
+}
+
+
+@media only screen and (min-width : 1224px) {
+body{
+background: white;
+overflow-y: scroll;
+overflow-x: hidden;
+
+}
+#product_box{
+padding-left:80px;
+}
+.col-md-4{
+
+}
+.col-sm-3{
+width:300px;
+}
+
+.navbar{
+
+}
+}
+
+
+
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+  
+  body{
+background: white;
+overflow: auto;
+}
+#product_box{
+padding-left:80px;
+}
+
+
+  
+}
+
+
+
+.search{
+
+margin-top:10px;
+ padding-left: 150px;
+ padding-right:30px;
+}
+
+.contact{
+
+float:right;
+
+ font-family:"dead_kansasregular";
+ word-wrap: break-word;
+hyphens: auto;
+ 
+}
+
+.f1{
+ padding-left: 80px;
+}
+.r1{
+
+
+background-image: "images/f1.png"
+
+}
+
+select {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+ footer{
+color:white;
+background-image: url(../images/f1.png);
+width:110%;
+padding-top:20px;
+padding-left:50px;
+padding-right:20px;
+padding-bottom:10px;
+font-size:10px;
+position:absolute;
+
+}
+
+.footer-options{
+margin-left:25px;
+margin-right:25px;
+
+}
+#footer-image{
+align:center;
+width: 100%;
+} 
+
+
+
+
+
+
+  
+  
+  @media only screen and (max-width: 500px) {
+  .col-sm-3{
+width:300px;
+}
+  
+}
+
+  
+  @media only screen and (max-width: 500px) {
+  
+  #product-image{
+  
+  padding-top:30px;
+
+}
+
+#sale-image{
+
+}
+  
+}
+ 
+
+#p1{
+ padding-left: 10px;
+ color:black;
+ 
+}
+
+.tag1{
+ padding-left: 30px;
+ 
+}
+
+#product{
+margin-left:70px;
+float:center;
+}
+#product-item{
+height:330px;
+align:center;
+} 
+
+
+
+.tag-options{
+padding-left:10px;
+padding-right:25px;
+}
+
+.item{
+padding-left:60px;
+}
+.color{
+color: white;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.col-sm-3{
+width:300px;
+}
+.col-md-4{
+
+
+
+}
+.pagination a.active {
+background-color:#B1C6B1;
+color: white;
+border: 1px solid;
+#B1C6B1;
+}
+
+.thumbnail {
+	
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+}
+
+.thumbnail:hover {
+    box-shadow: 0px 3px 4px 3px #05e0fa;
+}
+.thumbnail:hover span{
+color:black;
+} 
+
+.text1{
+ text-align: center;
+ color:grey;
+ size:10px;
+ 
+
+}
+
+
+.page{
+float:left;
+
+}
+
+#text2{
+
+ color:#05e0fa;;
+}
+
+
+#p2{
+ padding-left: 10px;
+color:grey;
+}
+
+
+
+
+
+#sale-image{
+  
+	padding-top:10px;
+	padding-left:180px;
+	position: relative;
+}
+
+#sale-image11{
+padding-top: 10px;
+margin-bottom: -125px;
+position: relative;
+margin-right: 20px;
+} 
+
+#product-image{
+	margin-top:-70px;
+}
+
+ #product-image2{
+margin-top:40px;
+margin-left:60px;
+}
+#product-image1{
+margin-top:-30px;
+margin-left:50px;
+} 
+
+
+
+
+
+
+@font-face {
+    font-family: 'dead_kansasregular';
+    src: url('../Fonts/dead_kansas/dead_kansas-webfont.woff2') format('woff2'),
+         url('../Fonts/dead_kansas/dead_kansas-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title{
+
+font-family: 'dead_kansasregular';
+}
+
+
+.left.carousel-control, .right.carousel-control{
+background: none;
+} 
+
+.carousel-fade .carousel-inner .item {
+opacity: 0;
+transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+left: 0;
+opacity: 0;
+z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+z-index: 2;
+} 
+
+.navbar-inverse {
+background-color:white;
+
+
+}
+
+.navbar {
+float:right;
+border-style:none;
+
+
+
+}
+
+.navbar-toggle{
+background-color:black;
+border-style:none;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #cc1877;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+
